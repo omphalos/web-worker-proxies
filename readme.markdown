@@ -3,7 +3,7 @@ Web Worker Proxies
 
 Tiny (< 850 byte) implementation of RPC-style interfaces for web workers.
 
-Take a look [here](https://omphalos.github.com/web-worker-proxies).
+Visit the home page with detail and examples [here](http://omphalos.github.com/web-worker-proxies).
 
 Acknowledgements
 ================
