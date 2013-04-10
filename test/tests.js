@@ -20,10 +20,10 @@ describe('web worker proxies', function() {
 
   it('should propagate errors', function() {
 
-    proxy('add')(2,3, function callback(err, result) {
+    proxy('fail')(function callback(err, result) {
 
-      expect(err).toBe(null)
-      expect(result).toBe(5)
+      expect(err).toBe('error')
+      expect(result).toBe(null)
     })
   })
 
